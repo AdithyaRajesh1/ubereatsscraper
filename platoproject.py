@@ -71,7 +71,7 @@ async def retrieve_menu_items(instance, start_url: str) -> list[dict]:
 
             #print(name) #- for debugging if needed
 
-        print(menu_items) #- for debugging if needed
+        #print(menu_items) #- for debugging if needed
         return menu_items
 
 async def main():
